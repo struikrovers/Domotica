@@ -1,0 +1,80 @@
+{
+	"todo-tree.customHighlight": {
+        "DEBUG": {},
+        "REVIEW": {},
+        "NOTE": {},
+        "FIXME": {},
+        "HACK": {},
+        "TODO": {},
+    },
+    "todohighlight.keywords": [
+        {
+            "text": "DEBUG:",
+            "color": "#00ffff",
+            "border": "1px solid cyan",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.1)",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "REVIEW:",
+            "color": "orange",
+            "border": "1px solid orange",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.1)",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "NOTE:",
+            "color": "#FFFF00",
+            "border": "1px solid yellow",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.1)",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "FIXME:",
+            "color": "#f38bde",
+            "border": "1px solid #f38bde",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.1)",
+            "overviewRulerColor": "grey"
+        },
+        {
+            "text": "HACK:",
+            "color": "#2232c6",
+            "border": "1px solid #2232c6",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.1)",
+            "overviewRulerColor": "grey",
+            "isWholeLine": false,
+        },
+        {
+            "text": "TODO:",
+            "color": "red",
+            "border": "1px solid red",
+            "borderRadius": "2px",
+            "backgroundColor": "rgba(0,0,0,.1)",
+            "overviewRulerColor": "grey"
+        }
+    ],
+
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss",
+        "**/*.c",
+        "**/*.cs",
+        "**/*.cpp",
+        "**/*.py",
+	],
+	"color-highlight.markerType": "dot-after",
+    "color-highlight.markRuler": false,
+    "color-highlight.matchWords": true,
+    "todohighlight.isEnable": true
+}
